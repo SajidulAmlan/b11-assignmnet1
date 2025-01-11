@@ -66,15 +66,16 @@ margin: 5px 220px;
  /* MAIN STARTS HERE  */
  .section{
     margin: 80px 220px;
+    width: 1485px;
  }
- #vision{
+ .vision{
     color: #0E0E0E;
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 24px;
  }
 
- #aim{
+ .aim{
     width: 1280px;
     color: rgba(14, 14, 14, 0.70);
     font-size: 16px;
@@ -175,8 +176,50 @@ background: #F7EBCF;
 #artical-2{
 background: url(../assets/quote-bg.png) #FFF;
 background-repeat: no-repeat;
+background-position: 12px 10px;
 padding: 25px 24px;
 align-items: flex-start;
 border-radius: 16px;
 border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+.setallite{
+    margin-top: 32px;
+    display: flex;
+    padding: 48px;
+    align-items: center;
+    gap: 32px;
+    border-radius: 24px;
+    background: #FFF;
+}
+.setalliteimg{
+border-radius: 24px;
+}
+
+.setalliteh3{
+    color: rgba(14, 14, 14, 0.80);
+    font-size: 32px;
+    font-weight: 700;
+    margin: 14px;
+}
+
+
+.setallitep{
+    color: rgba(14, 14, 14, 0.70);
+    font-family: "Fira Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+
+.readmore{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    padding: 13px 26px;
+    gap: 48px;
+    border-radius: 8px;
+    background: #006A50;
 }
